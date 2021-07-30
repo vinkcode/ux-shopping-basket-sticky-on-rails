@@ -1,16 +1,17 @@
 {
-  "name": "ux-shopping-item-fly-animation",
-  "version": "1.0.0",
-  "description": "",
-  "main": "anim.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./index.html"
-  },
-  "author": "Andre Vink",
-  "license": "ISC",
-  "devDependencies": {
-    "parcel": "^1.12.3",
-    "parcel-bundler": "^1.12.3"
-  }
+    "name": "ux-shopping-item-fly-animation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "anim.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "parcel ./src/index.html",
+        "build": "parcel build ./src/index.html -d ../vinkcode.github.io/ux-portal/basket-sticky-rails parcel --public-url ./"
+    },
+    "author": "Andre Vink",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^1.12.3",
+        "parcel-bundler": "^1.12.3"
+    }
 }
